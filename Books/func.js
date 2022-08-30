@@ -10,6 +10,7 @@ export function build(tagName, ...nodes) {
     }
     return element;
 }
+
 export function errorBlock(errors) {
     const errorBlock = build("div");
     errorBlock.id = "error-block";
